@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Login {
+  userName: String!
+  token: String!
+}
+
+type Query {
+  login(userName: String!, password: String!): Login
+}
